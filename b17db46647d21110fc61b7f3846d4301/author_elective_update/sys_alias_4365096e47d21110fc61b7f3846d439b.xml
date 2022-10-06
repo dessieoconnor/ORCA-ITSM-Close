@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="DELETE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>x_138672_orca_itsm.orca</id>
+        <multiple_connections>false</multiple_connections>
+        <name>orca</name>
+        <parent/>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-05 11:44:03</sys_created_on>
+        <sys_id>4365096e47d21110fc61b7f3846d439b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_138672_orca_itsm.orca</sys_name>
+        <sys_package display_value="Orca ITSM connection" source="x_138672_orca_itsm">b17db46647d21110fc61b7f3846d4301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Orca ITSM connection">b17db46647d21110fc61b7f3846d4301</sys_scope>
+        <sys_update_name>sys_alias_4365096e47d21110fc61b7f3846d439b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-05 11:44:03</sys_updated_on>
+        <type>credential</type>
+    </sys_alias>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Orca ITSM connection">b17db46647d21110fc61b7f3846d4301</application>
+        <file_path/>
+        <instance_id>8f6b3d931b95451032182f8dee4bcbbe</instance_id>
+        <instance_name>dev123890</instance_name>
+        <name>sys_alias_4365096e47d21110fc61b7f3846d439b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias"><sys_alias action="INSERT_OR_UPDATE"><configuration_template/><connection_type>http_connection</connection_type><id>x_138672_orca_itsm.orca</id><multiple_connections>false</multiple_connections><name>orca</name><parent/><retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy><sys_class_name>sys_alias</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-05 11:44:03</sys_created_on><sys_id>4365096e47d21110fc61b7f3846d439b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_138672_orca_itsm.orca</sys_name><sys_package display_value="Orca ITSM connection" source="x_138672_orca_itsm">b17db46647d21110fc61b7f3846d4301</sys_package><sys_policy/><sys_scope display_value="Orca ITSM connection">b17db46647d21110fc61b7f3846d4301</sys_scope><sys_update_name>sys_alias_4365096e47d21110fc61b7f3846d439b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-05 11:44:03</sys_updated_on><type>credential</type></sys_alias></record_update>]]></payload>
+        <payload_hash>282427915</payload_hash>
+        <record_name>x_138672_orca_itsm.orca</record_name>
+        <reverted_from/>
+        <source>4e7db86647d21110fc61b7f3846d4330</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-05 11:44:03</sys_created_on>
+        <sys_id>a985496e47d21110fc61b7f3846d43ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183a7f5bddc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-05 11:44:03</sys_updated_on>
+        <type>Connection &amp; Credential Aliases</type>
+        <update_guid>e185496e0ad211103779b62aeeafb0ea</update_guid>
+        <update_guid_history>e185496e0ad211103779b62aeeafb0ea:282427915</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-05 23:51:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_alias">sys_alias</sys_db_object>
+        <sys_id>23858b03f6d8497896433d6cc4c130a4</sys_id>
+        <sys_metadata>4365096e47d21110fc61b7f3846d439b</sys_metadata>
+        <sys_name>x_138672_orca_itsm.orca</sys_name>
+        <sys_package display_value="Orca ITSM connection" source="x_138672_orca_itsm">b17db46647d21110fc61b7f3846d4301</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Orca ITSM connection">b17db46647d21110fc61b7f3846d4301</sys_scope>
+        <sys_scope_delete display_value="">63bb86ba667c4e889bb08196384b8240</sys_scope_delete>
+        <sys_update_name>sys_alias_4365096e47d21110fc61b7f3846d439b</sys_update_name>
+        <sys_update_version display_value="sys_alias_4365096e47d21110fc61b7f3846d439b">a985496e47d21110fc61b7f3846d43ea</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Orca tenant API Key</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_138672_orca_itsm.orca_api</name>
+        <read_roles/>
+        <suffix>orca_api</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-05 23:50:23</sys_created_on>
+        <sys_id>79eaab22475e1110fc61b7f3846d43c4</sys_id>
+        <sys_name>x_138672_orca_itsm.orca_api</sys_name>
+        <sys_package display_value="Orca ITSM connection" source="x_138672_orca_itsm">b17db46647d21110fc61b7f3846d4301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Orca ITSM connection">b17db46647d21110fc61b7f3846d4301</sys_scope>
+        <sys_update_name>sys_properties_79eaab22475e1110fc61b7f3846d43c4</sys_update_name>
+        <type>password2</type>
+        <value>{{dflt-gpaes}}CVl50O/3RNtHtbrlJwKYzcEscNMqkgjK5ivzd/alWcsH+CsCQ2pzzl5GUw8erHePp2gwCgihc/1C&#13;
+MyHLqynpbMHnCG+MOzW/k9X3uXiyvShzLfL5nVRApBNznXG91rs5</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=79eaab22475e1110fc61b7f3846d43c4"/>
+</record_update>
