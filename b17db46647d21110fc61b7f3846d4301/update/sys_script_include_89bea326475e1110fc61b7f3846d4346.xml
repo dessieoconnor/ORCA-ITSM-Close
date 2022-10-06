@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_138672_orca_itsm.orca_call</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Interact with Orca API</description>
+        <name>orca_call</name>
+        <script><![CDATA[var orca_call = Class.create();
+orca_call.prototype = {
+    initialize: function() {
+    },
+	
+	doComment: function(alertID){
+		var orcaMsg = new sn_ws.RESTMessageV2();
+		orcaMsg.setEndpoint('https://api.orcasecurity.io/api/alerts/'+alertID+'/comments/');
+		orcaMsg.setHttpMethod('post');
+		orcaMsg.setRequestHeader('accept', ' application/json');
+		orcaMsg.setRequestHeader('Content-Type', 'application/json');
+		orcaMsg.setRequestHeader('Authorization', 'Token aHR0cHM6Ly9hcHAudXMub3JjYXNlY3VyaXR5LmlvfHxsa3pVY1R1c0lJSnVoTEhEcXZnSzBBMjZRSnBDQWZXUA==');
+		orcaMsg.setRequestBody('{ "comment": "Closing Alert '+alertID+' from ServiceNow" }');
+		var res = orcaMsg.executeAsync();
+		gs.info(res.getStatusCode());
+		gs.info(res.getErrorMessage());
+	},
+
+    type: 'orca_call'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-06 00:03:51</sys_created_on>
+        <sys_id>89bea326475e1110fc61b7f3846d4346</sys_id>
+        <sys_name>orca_call</sys_name>
+        <sys_package display_value="Orca ITSM connection" source="x_138672_orca_itsm">b17db46647d21110fc61b7f3846d4301</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Orca ITSM connection">b17db46647d21110fc61b7f3846d4301</sys_scope>
+        <sys_update_name>sys_script_include_89bea326475e1110fc61b7f3846d4346</sys_update_name>
+    </sys_script_include>
+</record_update>
