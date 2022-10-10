@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>orca alert udate notice</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+	alert(g_form.getValue('correlation_id'));
+	alert(g_form.getValue('correlation_id').indexOf('orca-') );
+   if (g_form.getValue('correlation_id').indexOf('orca-') > -1) {
+	alert('orca');
+	return false;
+   }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-07 04:08:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c3ff214b47521110fc61b7f3846d43cd</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>orca alert udate notice</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Orca ITSM connection" source="x_138672_orca_itsm">b17db46647d21110fc61b7f3846d4301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Orca ITSM connection">b17db46647d21110fc61b7f3846d4301</sys_scope>
+        <sys_update_name>sys_script_client_c3ff214b47521110fc61b7f3846d43cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-07 04:57:40</sys_updated_on>
+        <table>incident</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Orca ITSM connection">b17db46647d21110fc61b7f3846d4301</application>
+        <file_path/>
+        <instance_id>8f6b3d931b95451032182f8dee4bcbbe</instance_id>
+        <instance_name>dev123890</instance_name>
+        <name>sys_script_client_c3ff214b47521110fc61b7f3846d43cd</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;orca alert udate notice&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+	alert(g_form.getValue('correlation_id'));
+	alert(g_form.getValue('correlation_id').indexOf('orca-') );
+   if (g_form.getValue('correlation_id').indexOf('orca-') &gt; -1) {
+	alert('orca');
+	return false;
+   }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-07 04:08:39&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c3ff214b47521110fc61b7f3846d43cd&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;orca alert udate notice&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Orca ITSM connection" source="x_138672_orca_itsm"&gt;b17db46647d21110fc61b7f3846d4301&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Orca ITSM connection"&gt;b17db46647d21110fc61b7f3846d4301&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_c3ff214b47521110fc61b7f3846d43cd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-07 04:57:40&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1634022831</payload_hash>
+        <record_name>orca alert udate notice</record_name>
+        <reverted_from/>
+        <source>61bdc2f247965110fc61b7f3846d430a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-07 04:57:40</sys_created_on>
+        <sys_id>8cbb3dc347921110fc61b7f3846d43e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183b0ce68560000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-07 04:57:40</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>84bb3dc30d921110a2b5a5429a52b9e2</update_guid>
+        <update_guid_history>84bb3dc30d921110a2b5a5429a52b9e2:-1634022831,cd4b39c38b921110c1376735d616da33:1578729422,22fa358b63521110d7fc3844faa09e45:-1722490115,230a3983289211108eff8c12751d0bb3:-1714630229,8e70fd4bbb52111016adc701c882dee1:-1698819435</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-07 04:59:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>45bc477b125640baa5764b41e4a61bc4</sys_id>
+        <sys_metadata>c3ff214b47521110fc61b7f3846d43cd</sys_metadata>
+        <sys_name>orca alert udate notice</sys_name>
+        <sys_package display_value="Orca ITSM connection" source="x_138672_orca_itsm">b17db46647d21110fc61b7f3846d4301</sys_package>
+        <sys_parent display_value="Incident">8bae79c8752401100acb0f6766fcbfb1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Orca ITSM connection">b17db46647d21110fc61b7f3846d4301</sys_scope>
+        <sys_scope_delete display_value="">63bb86ba667c4e889bb08196384b8240</sys_scope_delete>
+        <sys_update_name>sys_script_client_c3ff214b47521110fc61b7f3846d43cd</sys_update_name>
+        <sys_update_version display_value="sys_script_client_c3ff214b47521110fc61b7f3846d43cd">8cbb3dc347921110fc61b7f3846d43e2</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -34,18 +34,26 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	gs.info('now close orla alert!');
-	//Find the first active incident record
-	var gr = new GlideRecord('api_key_credentials');
-	var apiKey = gs.getProperty('x_138672_orca_itsm.orca_api');
-	if(apiKey){
-	//Do something with the record returned
-		gs.info('Key is ' + apiKey);
-		var OrcaCall=new orca_call();
-		OrcaCall.doComment(current.correlation_id);
+	if (previous.getValue('state') !== 6 && previous.getValue('state') !== 7 ) {
+
+		var apiKey = gs.getProperty('x_138672_orca_itsm.orca_api');
+		if(apiKey){
+		
+			var OrcaCall=new orca_call();
+
+			if (OrcaCall.doStatus(current.correlation_id)) {
+				OrcaCall.doComment(current.correlation_id);
+				gs.addInfoMessage('Alert '+current.correlation_id+' updated on Orca Security...');
+			}
+		}
+		else {
+			gs.info('could not find any Orca API key');
+		}
 	}
 	else {
-		gs.info('could not find any key');
+		gs.info('Not sedning to Orca as case is already resolved or closed');
 	}
+	
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>

@@ -9,20 +9,40 @@
         <name>orca_call</name>
         <script><![CDATA[var orca_call = Class.create();
 orca_call.prototype = {
-    initialize: function() {
-    },
 	
+    initialize: function() {
+		this.APIKey = gs.getProperty('x_138672_orca_itsm.orca_api');
+		this.baseURL = gs.getProperty('x_138672_orca_itsm.orca_api_base_url');
+    },
 	doComment: function(alertID){
+		
 		var orcaMsg = new sn_ws.RESTMessageV2();
-		orcaMsg.setEndpoint('https://api.orcasecurity.io/api/alerts/'+alertID+'/comments/');
+		orcaMsg.setEndpoint(this.baseURL+'api/alerts/'+alertID+'/comments/');
 		orcaMsg.setHttpMethod('post');
 		orcaMsg.setRequestHeader('accept', ' application/json');
 		orcaMsg.setRequestHeader('Content-Type', 'application/json');
-		orcaMsg.setRequestHeader('Authorization', 'Token aHR0cHM6Ly9hcHAudXMub3JjYXNlY3VyaXR5LmlvfHxsa3pVY1R1c0lJSnVoTEhEcXZnSzBBMjZRSnBDQWZXUA==');
-		orcaMsg.setRequestBody('{ "comment": "Closing Alert '+alertID+' from ServiceNow" }');
+		orcaMsg.setRequestHeader('Authorization', 'Token '+this.APIKey);
+		orcaMsg.setRequestBody('{ "comment": "Alert '+alertID+' Closed from ServiceNow" }');
+		
 		var res = orcaMsg.executeAsync();
-		gs.info(res.getStatusCode());
-		gs.info(res.getErrorMessage());
+		gs.info('API comment result: '+res.getStatusCode());
+		gs.info('API comment message: '+res.getErrorMessage());
+		return (res.getStatusCode() == '201' || res.getStatusCode() == '200') ? true : false;
+	},
+	doStatus: function(alertID) {
+		
+		var orcaMsg = new sn_ws.RESTMessageV2();
+		orcaMsg.setEndpoint(this.baseURL+'api/alerts/'+alertID+'/status/closed');
+		orcaMsg.setHttpMethod('put');
+		orcaMsg.setRequestHeader('accept', ' application/json');
+		orcaMsg.setRequestHeader('Content-Type', 'application/json');
+		orcaMsg.setRequestHeader('Authorization', 'Token '+this.APIKey);
+		orcaMsg.setRequestBody('{ "alert_id": "'+alertID+'", "status": "closed"}');
+
+		var res = orcaMsg.executeAsync();
+		gs.info('API status result: '+res.getStatusCode());
+		gs.info('API status message: '+res.getErrorMessage());
+		return (res.getStatusCode() == '201' || res.getStatusCode() == '200') ? true : false;
 	},
 
     type: 'orca_call'
