@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="orca_api_key" table="x_138672_orca_itsm_orca_api_key">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Orca APi_key</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>orca_api_key</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>true</mandatory>
+        <max_length>256</max_length>
+        <name>x_138672_orca_itsm_orca_api_key</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-05 11:10:41</sys_created_on>
+        <sys_id>fced30a647d21110fc61b7f3846d4386</sys_id>
+        <sys_name>Orca APi_key</sys_name>
+        <sys_package display_value="Orca ITSM connection" source="x_138672_orca_itsm">b17db46647d21110fc61b7f3846d4301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Orca ITSM connection">b17db46647d21110fc61b7f3846d4301</sys_scope>
+        <sys_update_name>sys_dictionary_x_138672_orca_itsm_orca_api_key_orca_api_key</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-05 11:37:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Orca ITSM connection">b17db46647d21110fc61b7f3846d4301</application>
+        <file_path/>
+        <instance_id>8f6b3d931b95451032182f8dee4bcbbe</instance_id>
+        <instance_name>dev123890</instance_name>
+        <name>sys_dictionary_x_138672_orca_itsm_orca_api_key_orca_api_key</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="orca_api_key" table="x_138672_orca_itsm_orca_api_key"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Orca APi_key</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>orca_api_key</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>true</mandatory><max_length>256</max_length><name>x_138672_orca_itsm_orca_api_key</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-05 11:10:41</sys_created_on><sys_id>fced30a647d21110fc61b7f3846d4386</sys_id><sys_name>Orca APi_key</sys_name><sys_package display_value="Orca ITSM connection" source="x_138672_orca_itsm">b17db46647d21110fc61b7f3846d4301</sys_package><sys_policy/><sys_scope display_value="Orca ITSM connection">b17db46647d21110fc61b7f3846d4301</sys_scope><sys_update_name>sys_dictionary_x_138672_orca_itsm_orca_api_key_orca_api_key</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-05 11:37:13</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-849452998</payload_hash>
+        <record_name>Orca API Key.Orca APi_key</record_name>
+        <reverted_from/>
+        <source>4e7db86647d21110fc61b7f3846d4330</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-05 11:37:13</sys_created_on>
+        <sys_id>d1f3012e47d21110fc61b7f3846d4334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183a7ef7acf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-05 11:37:13</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>1df3012ea2d2111021093929fb6e8a33</update_guid>
+        <update_guid_history>1df3012ea2d2111021093929fb6e8a33:-849452998,f4ed30a61fd2111006771a8b4e89129b:719719353,f0ed30a6b4d21110f4598df06988cb92:1463550829</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-07 05:04:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>1cf41d77087048668517b00e29fe92a1</sys_id>
+        <sys_metadata>fced30a647d21110fc61b7f3846d4386</sys_metadata>
+        <sys_name>Orca APi_key</sys_name>
+        <sys_package display_value="Orca ITSM connection" source="x_138672_orca_itsm">b17db46647d21110fc61b7f3846d4301</sys_package>
+        <sys_parent display_value="">f8ed30a647d21110fc61b7f3846d432d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Orca ITSM connection">b17db46647d21110fc61b7f3846d4301</sys_scope>
+        <sys_scope_delete display_value="">63bb86ba667c4e889bb08196384b8240</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_138672_orca_itsm_orca_api_key_orca_api_key</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_138672_orca_itsm_orca_api_key_orca_api_key">d1f3012e47d21110fc61b7f3846d4334</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

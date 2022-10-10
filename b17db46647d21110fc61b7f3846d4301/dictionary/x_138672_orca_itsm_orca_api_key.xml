@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="f8ed30a647d21110fc61b7f3846d432d" label="Orca API Key" max_length="40" name="x_138672_orca_itsm_orca_api_key" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Orca APi_key" mandatory="true" max_length="256" name="orca_api_key" type="string"/>
-        <element display="true" label="Orca tenant" max_length="256" name="orca_tenant" type="string"/>
-    </element>
-</database>
