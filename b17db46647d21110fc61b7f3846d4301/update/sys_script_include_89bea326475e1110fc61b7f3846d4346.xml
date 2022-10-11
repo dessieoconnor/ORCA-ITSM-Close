@@ -4,7 +4,7 @@
         <active>true</active>
         <api_name>x_138672_orca_itsm.orca_call</api_name>
         <caller_access/>
-        <client_callable>true</client_callable>
+        <client_callable>false</client_callable>
         <description>Interact with Orca API</description>
         <name>orca_call</name>
         <script><![CDATA[var orca_call = Class.create();
