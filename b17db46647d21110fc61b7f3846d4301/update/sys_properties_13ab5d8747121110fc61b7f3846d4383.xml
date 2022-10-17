@@ -17,7 +17,7 @@
         <sys_scope display_value="Orca ITSM connection">b17db46647d21110fc61b7f3846d4301</sys_scope>
         <sys_update_name>sys_properties_13ab5d8747121110fc61b7f3846d4383</sys_update_name>
         <type>string</type>
-        <value>https://api.orcasecurity.io/</value>
+        <value/>
         <write_roles/>
     </sys_properties>
     <sys_translated_text action="delete_multiple" query="documentkey=13ab5d8747121110fc61b7f3846d4383"/>

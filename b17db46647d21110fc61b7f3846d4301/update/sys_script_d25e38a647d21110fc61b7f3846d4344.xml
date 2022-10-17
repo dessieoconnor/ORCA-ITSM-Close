@@ -33,14 +33,14 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-	gs.info('now close orla alert!');
 	if (previous.getValue('state') !== 6 && previous.getValue('state') !== 7 ) {
+		
+		gs.info('now close orla alert!');
 
 		var apiKey = gs.getProperty('x_138672_orca_itsm.orca_api');
 		if(apiKey){
 		
 			var OrcaCall=new orca_call();
-
 			if (OrcaCall.doStatus(current.correlation_id)) {
 				OrcaCall.doComment(current.correlation_id);
 				gs.addInfoMessage('Alert '+current.correlation_id+' updated on Orca Security...');
