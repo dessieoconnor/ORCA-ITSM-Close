@@ -25,6 +25,7 @@ orca_call.prototype = {
 		orcaMsg.setRequestBody('{ "comment": "Alert '+alertID+' Closed from ServiceNow" }');
 		
 		var res = orcaMsg.executeAsync();
+		
 		gs.info('API comment result: '+res.getStatusCode());
 		gs.info('API comment message: '+res.getErrorMessage());
 		return (res.getStatusCode() == '201' || res.getStatusCode() == '200') ? true : false;
