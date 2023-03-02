@@ -10,3 +10,4 @@ This small app will close off Orca Alerts on the Orca platform from Incidents cr
 * Set the Orca API Key in ServiceNow system property: x_138672_orca_itsm.orca_api
 
 * Set the API Base URL in ServiceNow system property: x_138672_orca_itsm.orca_api_base_url
+e.g. https://<orca_base_url>/
