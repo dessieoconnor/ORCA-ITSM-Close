@@ -28,7 +28,8 @@ orca_call.prototype = {
 		
 		gs.info('API comment result: '+res.getStatusCode());
 		gs.info('API comment message: '+res.getErrorMessage());
-		return (res.getStatusCode() == '201' || res.getStatusCode() == '200') ? true : false;
+		//making asysnc as too slow otherwise
+		return true;
 	},
 	doStatus: function(alertID) {
 		
@@ -43,7 +44,8 @@ orca_call.prototype = {
 		var res = orcaMsg.executeAsync();
 		gs.info('API status result: '+res.getStatusCode());
 		gs.info('API status message: '+res.getErrorMessage());
-		return (res.getStatusCode() == '201' || res.getStatusCode() == '200') ? true : false;
+		//making asysnc as too slow otherwise
+		return true;
 	},
 
     type: 'orca_call'
@@ -52,10 +54,13 @@ orca_call.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-06 00:03:51</sys_created_on>
         <sys_id>89bea326475e1110fc61b7f3846d4346</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>orca_call</sys_name>
         <sys_package display_value="Orca ITSM connection" source="x_138672_orca_itsm">b17db46647d21110fc61b7f3846d4301</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Orca ITSM connection">b17db46647d21110fc61b7f3846d4301</sys_scope>
         <sys_update_name>sys_script_include_89bea326475e1110fc61b7f3846d4346</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-11 23:09:38</sys_updated_on>
     </sys_script_include>
 </record_update>

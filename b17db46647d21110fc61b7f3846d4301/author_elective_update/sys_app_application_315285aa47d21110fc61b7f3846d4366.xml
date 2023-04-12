@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description>Add your Orca tenant API token here</description>
+        <device_type>browser</device_type>
+        <hint>Add you API tocken</hint>
+        <name/>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-05 11:31:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>315285aa47d21110fc61b7f3846d4366</sys_id>
+        <sys_name>Orca connection</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Orca ITSM connection" source="x_138672_orca_itsm">b17db46647d21110fc61b7f3846d4301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Orca ITSM connection">b17db46647d21110fc61b7f3846d4301</sys_scope>
+        <sys_update_name>sys_app_application_315285aa47d21110fc61b7f3846d4366</sys_update_name>
+        <title>Orca connection</title>
+        <view_name/>
+    </sys_app_application>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Orca ITSM connection">b17db46647d21110fc61b7f3846d4301</application>
+        <file_path/>
+        <instance_id>4117ae1a1b88b4107d9d2f8dee4bcbf9</instance_id>
+        <instance_name>dev115996</instance_name>
+        <name>sys_app_application_315285aa47d21110fc61b7f3846d4366</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description>Add your Orca tenant API token here</description>
+        <device_type>browser</device_type>
+        <hint>Add you API tocken</hint>
+        <name/>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-05 11:31:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>315285aa47d21110fc61b7f3846d4366</sys_id>
+        <sys_name>Orca connection</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Orca ITSM connection" source="x_138672_orca_itsm">b17db46647d21110fc61b7f3846d4301</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Orca ITSM connection">b17db46647d21110fc61b7f3846d4301</sys_scope>
+        <sys_update_name>sys_app_application_315285aa47d21110fc61b7f3846d4366</sys_update_name>
+        <title>Orca connection</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>]]></payload>
+        <payload_hash>915701202</payload_hash>
+        <record_name>Orca connection</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-11 09:01:49</sys_created_on>
+        <sys_id>8a4b28031b4a2110e778a8e5604bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1876f8cc5e90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-11 09:01:49</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>4a4b2803eb4a21109f30a95146f99c66</update_guid>
+        <update_guid_history>4a4b2803eb4a21109f30a95146f99c66:915701202</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Orca connection">6c682bcf1bc26110e778a8e5604bcba5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-11 22:48:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>53ee7243ed554644a49a4d3541b7bd90</sys_id>
+        <sys_metadata>315285aa47d21110fc61b7f3846d4366</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Orca connection</sys_name>
+        <sys_package display_value="Orca ITSM connection" source="x_138672_orca_itsm">b17db46647d21110fc61b7f3846d4301</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Orca ITSM connection">b17db46647d21110fc61b7f3846d4301</sys_scope>
+        <sys_scope_delete display_value="">63bb86ba667c4e889bb08196384b8240</sys_scope_delete>
+        <sys_update_name>sys_app_application_315285aa47d21110fc61b7f3846d4366</sys_update_name>
+        <sys_update_version display_value="sys_app_application_315285aa47d21110fc61b7f3846d4366">8a4b28031b4a2110e778a8e5604bcb66</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-11 22:48:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
